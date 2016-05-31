@@ -1,5 +1,6 @@
 {
-  "name": "Hootpwa",
+  "name": "Hoot.io",
+  "short_name":"Hoot.io"
   "icons": [
     {
       "src": "icon.png",
