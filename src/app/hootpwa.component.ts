@@ -50,8 +50,8 @@ interface iRouteList{
 export class HootpwaAppComponent {
   title:string = 'Hoot PWA';
   routes:iRouteList[] = [
-    {display:'Main',routeName:'Main',description:'Your main menu.'},
+    {display:'Main',routeName:'Main',description:'Your main menu.', icon:'home'},
     {display:'Tree List',routeName:'TreeList'},
-    {display:'Achievements',routeName:'Achievement'}
+    {display:'Achievements',routeName:'Achievement', icon:'grade'}
   ]
 }
