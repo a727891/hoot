@@ -13,6 +13,7 @@ import { AchievementsComponent } from './+achievements';
 // import {MdCheckbox} from '@angular2-material/checkbox';
 // import {MdRadioButton, MdRadioGroup, MdRadioDispatcher} from '@angular2-material/radio';
 import {MdIcon, MdIconRegistry} from '@angular2-material/icon';
+import {DataService} from './data.service'
 
 interface iRouteList{
   display:string;
@@ -39,7 +40,7 @@ interface iRouteList{
     MdIcon,
     ROUTER_DIRECTIVES
   ],
-   providers: [MdIconRegistry, ROUTER_PROVIDERS]
+   providers: [MdIconRegistry, ROUTER_PROVIDERS, DataService]
 })
 @RouteConfig([
   {path: '/main', name:'Main', component: MainComponent, useAsDefault:true},

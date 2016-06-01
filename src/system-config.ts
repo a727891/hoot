@@ -63,6 +63,7 @@ const barrels: string[] = [
   'app/+main',
   'app/+tree',
   'app/+achievements',
+  'app/+treelist/tree',
   /** @cli-barrel */
 ];
 
